@@ -1,14 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-      <link rel="stylesheet" href="main.css">
-    </head>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Portfolio</title>
 
-    <body class='background grid'>
 
-        <h1>Hello & Welcome</h1>
-        <h2>The site is currently under construction.</h2>
-        <h2>Will be back soon~</h2>
 
-    </body>
+		<link rel="stylesheet" href="css/main-style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-2.2.3.min.js"><\/script>');</script>
+		<!-- NavBar JS-->
+		<script src="js/nav.js"></script>
+	</head>
+
+
+
+	<header class="nav-down">
+			<h1 class="hide">Emma WU's Portfolio</h1>
+			<figure class="name left">
+			<img src="img/logo.png" alt="">
+			</figure>
+	</header>
+
+
+
+
+
+	<nav class="nav-down phone">
+				<h2 class="hide">Main Navigation</h2>
+				<label class="label nav-color" for="toggle">&#9776;</label>
+				<input class="hide" type="checkbox" id="toggle">
+				<ul class="menu">
+
+					<li><a href="EmmaWuResume_UXDesigner.pdf" class="nav-color">Resume</a></li>
+					<li><a href="resume.html" class="nav-color">About</a></li>
+					<li><a href="#portfolio" onclick="return false;"">Work</a></li>
+					<li class="left logo"><a href="index.html" ></a><img src="media/emma.svg" width="40" height="27"></li>
+
+				</ul>
+
+
+	</nav>
+
+
+	<body class="home ">
+
+		<div class="intro">
+			<section>
+				<h2 class="hide">introduction</h2>
+
+				<video autoplay loop muted poster="media/webDesktop3.png">
+					<source src="media/2webDesktop.webm" type="video/webm">
+					<source src="media/2webDesktop.mp4" type="video/mp4">
+
+				</video>
+
+				<div class="center">
+					<p class="hi">Hello & Welcome</p>
+					<p class="me">I'm Emma, an UX/UI Designer based in New York.</p>
+				</div>
+
+			</section>
+		</div>
+
+		<div class="skills">
+			<section class="">
+
+				<ul>
+				<h2 class="hide">Skills</h2>
+
+				<li><img src="media/stra.png">
+					<h3>Strategy</h3>
+					<p>Identify unique brand values and opportunities to differentiate among competitors.  </p>
+				</li>
+
+				<li><img src="media/rese.png">
+					<h3>User Research</h3>
+					<p>Conduct research and tun user insight and pain points into solutions. </p>
+				</li>
+
+				<li><img src="media/user.png">
+					<h3>UX/UI</h3>
+					<p>Discover simple and logical workflows that enhance user interaction and experience. </p>
+				</li>
+
+				<li><img src="media/prto.png">
+					<h3>Prototype</h3>
+					<p>Create low and high fidelity prototypes, and gather feedback from user testing for iteration. </p>
+				</li>
+
+				</ul>
+
+			</section>
+
+
+
+		</div>
+
+
+			<!-- my work section -->
+
+
+		<div class="clearfix">
+
+		<div class="container portfolio" >
+
+			<span class="hi"><a id="portfolio">My Work</span>
+
+			<section>
+
+				<h2 class="hide">My Work</h2>
+
+
+                    <!-- <a href="leadershiphubtemp.html"> -->
+                    <a href="leadershiphub.html">
+					<section class="projectlhub">
+						<div>
+						<h3>The Blue Line Leadership Hub</h3>
+						<p>User Interation | Iteration | User Centered Design</p>
+						</div>
+						<img class="travelpng" src="media/lhub/lhub.png" alt="leadershiphub">
+					</section>
+					</a>
+
+
+                    <!-- <a href="globalinductionplatformtemp.html"> -->
+                    <a href="globalinductionplatform.html">
+					<section class="projectinspira">
+
+						<div>
+						<h3>Global Induction Platform</h3>
+						<p>Usability | Information Architecture | Simplification</p>
+						</div>
+						<img class="travelpng" src="media/inspira/inspira.png" alt="onboarding">
+
+					</section>
+					</a>
+
+
+					<a href="expedia.html">
+					<section class="project1">
+
+						<div>
+						<h3>Expedia Trip Plan</h3>
+						<p>Responsive Design | UX/UI | Interaction design</p>
+						</div>
+						<img class="travelpng" src="media/expedia.png" alt="travel-app">
+						<img class="travelgif expediapng eframe" src="media/expediaGif.png" alt="travel-app">
+						<img class="travelgif expediagif" id="expediagif" src="media/expedia.gif" alt="travel-app">
+
+					</section>
+
+
+					</a>
+
+
+					<!-- <a href="docworth.html">
+					<section class="project2">
+
+						<div>
+						<h3>DocWorth</h3>
+						<p>Product Design | Research | Collaboration</p>
+						</div>
+						<img class="travelpng" src="media/docworth/docscreen.png" alt="finding doctors project">
+					</section>
+					</a>
+
+
+
+					<a href="aaa.html">
+					<section class="project3">
+
+						<div>
+						<h3>AAA Rebrand</h3>
+						<p>Strategy | Branding | Desktop  </p>
+						</div>
+						<img class="travelpng" src="media/aaa/aaademo.png" alt="Rebrand project">
+					</section>
+					</a>
+
+
+					<a href="tieup.html">
+					<section class="project4">
+						<div>
+						<h3>Tie-Up</h3>
+						<p>Wireframes | Prototype | User Test</p>
+						</div>
+						<img class="travelpng" src="media/tieup/phone.png" alt="connet-app">
+					</section>
+					</a>
+
+
+					<a href="smallproject.html">
+					<section class="project5">
+
+						<div>
+						<h3>Small Projects</h3>
+						<p>Creative Problem Solving </p>
+						</div>
+						<img class="travelpng" src="media/smallproject/count.png" alt="other projects">
+
+					</section>
+					</a> -->
+		</div><!-- end portfolio -->
+
+
+	</body>
+
+ 	<footer class="container">
+
+
+			<small>Created by Emma Wu &copy;2020 </small>
+	</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	  <script>window.jQuery || document.write('<script src="js/jquery-2.2.3.min.js"><\/script>');</script>
+	  <script src="js/smooth.js"></script>
+
+
+
 </html>
